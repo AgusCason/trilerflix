@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+* {
+    font-family: 'Open Sans Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+html {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 500;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    color: white;
+    animation: fadeIn 2s;
+}
+
+img {
+    width: 50%;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: x-large;
+    text-align: center;
+    color: red;
+}
+
+.emoji-volver {
+    color: red;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 16px;
+    font-size: 1.4em;
+    cursor: pointer;
+    border: 0.05em solid;
+    border-color: red;
+}
+
+div.emoji-volver:hover {
+    transition: all 0.8s ease;
+    background-color: red;
+    color: black;
+}
+
+.info {
+    color: yellow;
+}
+
+p {
+    font-size: xx-large;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+* {
+    font-family: 'Open Sans Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    scrollbar-color: black;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+h1 {
+    font-size: 5em;
+    font-weight: 500;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    color: white;
+    animation: fadeIn 3s;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: x-large;
+    text-align: center;
+    color: red;
+}
+
+.card {
+    margin: 20px;
+    margin-bottom: 70px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.poster {
+    width: 280px;
+	-webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.05));
+	transition: all 0.6s ease;
+}
+
+img {
+    opacity: 0.6;
+}
+
+img:hover {
+    opacity: 1;
+	transform: scale(1.1);
+    cursor: pointer;
+}
+
+.error-contenido {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    color: red;
+}
+
+.emoji-cine {
+    font-size: 3em;
+}
+
+.loader {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    opacity: 1;
+}
